@@ -1,0 +1,47 @@
+* {
+    box-sizing: content-box border-box;
+    margin-left: 40px;
+    padding: 100px;
+    font-family: 'Itim', cursive;
+    background-color:red;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing:0px;
+    text-transform: uppercase;
+
+    }
+.container{
+     font-weight: bolder;
+    text-align: center;
+    letter-spacing:0px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px black;
+}
+h2{
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing:0px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px black;
+    text-shadow: 2px 2px 1px rgb(91, 92, 95);
+}
+#gray{
+    
+    background-color: gray;
+}
+button{
+    background-color: rgb(247, 173, 82);
+    
+
+}
+#selectage{
+    text-align: center;
+    
+}
+#calculateage:hover{
+    
+    
+    background-color: rgb(247, 173, 82);
+    background-color: rgb(83, 83, 82);
+    border-radius: 10px;
+}

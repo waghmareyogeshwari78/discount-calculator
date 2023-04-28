@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h2, h3{
+            border: 2px solid cadetblue;
+            width: 400px;
+            height: 50px;
+            /* display: block; This is default value for h2 and h3 tags */
+          
+        }
+        p {
+            border: 2px solid cadetblue;
+          
+        }
+        /* p {
+            display: inline;
+        } */
+        .para{
+           display: inline-block;
+           width: 400px;
+           height: 50px;
+        }
+        span{
+            border: 5px solid orange; 
+            /* display: inline;  This is default value for span and a tag*/
+            width: 400px;
+            height: 50px;
+        }
+        nav{
+            background-color: #0D5C63;
+        }
+        ul{
+            display: inline-block;
+        }
+        li, a {
+            display: inline-block;
+            width: 200px;
+            text-transform: uppercase;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        a{
+            text-decoration: none;
+        }
+        #logo{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+        .box{
+            border: 2px solid orange; 
+            width: 300px;
+            height: 200px;
+            margin-left: 10px;
+            overflow: visible;
+           
+        }
+        .container{
+            margin-top: 200px;
+            width: 400px;
+            height: 200px;
+            background-color: darkgray;
+        }
+        .box1{
+            background-color: #0D5C63;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+
+        }
+        .box2{
+            background-color: burlywood;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+            /* display: none; */
+            visibility: hidden;
+        }
+        .box3{
+            background-color: cornflowerblue;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        
+        <ul> 
+            <li> <a href="www.google.com"> <img src="developer.png" id="logo">  </a> </li>
+            <li> <a href="#"> home </a>   </li>
+            <li>  <a href="#"> SERVICES </a> </li>
+            <li> <a href="#"> about us  </a></li>
+            <li> <a href="#"> contact us </a></li>
+        </ul>
+    </nav>
+
+    <h2> Lorem, ipsum dolor. </h2>
+    <h3> Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+
+    <p class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    <p class="para"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur! </p>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+    
+    <span> Lorem ipsum dolor sit. </span>
+    <span> Lorem, ipsum. </span>
+    <span> Lorem  ipsum dolor sit amet consectetur adipisicing elit. </span>
+    <a href="#"> Link1</a>
+    <a href="#"> Link2</a>
+    <a href="#"> Link3</a>
+    <a href="#"> Link4 Here is the Link</a>
+
+    <div class="box">
+        Hello Good Morning
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum omnis, quas voluptatum quod officiis optio earum quisquam molestiae modi odio nulla ea culpa tempora nihil libero reprehenderit voluptatem eius odit. Aut explicabo minima suscipit, sit nihil, quasi iste possimus amet repellendus tempora corporis earum commodi rerum officia libero incidunt illo.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem minima odio autem fugiat, dolores laborum quibusdam similique cum excepturi itaque sapiente, illo doloribus aspernatur, aliquid et harum! Modi placeat inventore dolor expedita adipisci autem id? Adipisci mollitia, ad esse natus voluptatibus tempore earum necessitatibus ratione qui illo delectus perspiciatis officia.
+    </div>
+    
+    <div class="container">
+        <div class="box1">
+            BOX1 
+        </div>
+        <div class="box2">
+            BOX2
+        </div>
+        <div class="box3">
+            BOX3
+        </div>
+    </div>
+</body>
+</html>
