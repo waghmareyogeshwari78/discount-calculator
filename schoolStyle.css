@@ -1,0 +1,9 @@
+*{
+    background-color: white;
+    background-image: calc();
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:dotted;
+}
